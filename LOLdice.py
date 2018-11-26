@@ -4,8 +4,6 @@ import random
 
 client = discord.Client()
 
-token = "NDYxODc3NzgyMTUwOTA1ODY2.DhZtIA.ZJSnDpUiGWcz32sBo3T8IxqJdIo"
-
 @client.event
 async def on_ready():
 	print("Logged in as ")
