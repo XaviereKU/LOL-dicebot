@@ -4,6 +4,8 @@ import random
 
 client = discord.Client()
 
+token = "NDYxODc3NzgyMTUwOTA1ODY2.DhZtIA.ZJSnDpUiGWcz32sBo3T8IxqJdIo"
+
 @client.event
 async def on_ready():
 	print("Logged in as ")
@@ -55,4 +57,4 @@ async def on_message(message):
 					fmt = '{0.name} 풀방입니다!'
 			await client.send_message(channel, fmt.format(voice))
         
-client.run(NDYxODc3NzgyMTUwOTA1ODY2.DhZtIA.ZJSnDpUiGWcz32sBo3T8IxqJdIo)
+client.run(token)
