@@ -1,10 +1,11 @@
 import asyncio
 import discord
 import random
+import os
 
 client = discord.Client()
 
-token = "NDYxODc3NzgyMTUwOTA1ODY2.DhZtIA.ZJSnDpUiGWcz32sBo3T8IxqJdIo"
+token = os.environ["token"]
 
 @client.event
 async def on_ready():
