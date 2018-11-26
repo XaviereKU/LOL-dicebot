@@ -55,4 +55,4 @@ async def on_message(message):
 					fmt = '{0.name} 풀방입니다!'
 			await client.send_message(channel, fmt.format(voice))
         
-client.run(token)
+client.run(NDYxODc3NzgyMTUwOTA1ODY2.DhZtIA.ZJSnDpUiGWcz32sBo3T8IxqJdIo)
