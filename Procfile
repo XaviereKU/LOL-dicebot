@@ -1,1 +1,1 @@
-worker: python3 LOLdice.py
+worker: python LOLdice.py
